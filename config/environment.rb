@@ -15,6 +15,7 @@ Rails::Initializer.run do |config|
   config.gem "thoughtbot-shoulda",      :lib => "shoulda",      :source => "http://gems.github.com"
   config.gem "aslakhellesoy-webrat",    :lib => "webrat",       :source => "http://gems.github.com"
   config.gem "thoughtbot-factory_girl", :lib => "factory_girl", :source => "http://gems.github.com"
+  config.gem "rubyist-aasm",            :lib => "aasm",         :source => "http://gems.github.com"
   config.gem "bcrypt-ruby",             :lib => "bcrypt",       :version => '2.0.3'
   config.gem "authlogic"
   config.gem "mechanize"
